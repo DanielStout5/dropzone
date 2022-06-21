@@ -9,6 +9,13 @@ XHR.
 
 It's fully configurable and can be styled according to your needs.
 
+
+Copy
+----
+
+This is a copy of the main Dropzone repo with this PR merged:  https://github.com/dropzone/dropzone/pull/2001 
+
+
 Quickstart
 ----------
 
