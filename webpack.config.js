@@ -89,7 +89,7 @@ let getCssConfig = (minimize) => {
     plugins: [
       new WebpackShellPluginNext({
         onBuildEnd: {
-          scripts: ["rm -f dist/delete-me && rm -f dist/min/delete-me"],
+          scripts: ["npx shx rm -f dist/delete-me && npx shx rm -f dist/min/delete-me"],
         },
       }),
     ],
